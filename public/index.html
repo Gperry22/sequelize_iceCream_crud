@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello Bulma!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+  </head>
+
+  <body>
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <p class="title">ICE CREAM HERO</p>
+        <p class="subtitle">Keep track of your favorite Icecream</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column mt-4 has-text-centered">
+            <div class="field">
+              <div class="control">
+                <input
+                  id="iceCreamName"
+                  class="input is-large"
+                  placeholder="Add IceCream Name"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="column mt-4 has-text-centered">
+            <div class="field">
+              <div class="control">
+                <input
+                  id="iceCreamPrice"
+                  class="input is-large"
+                  placeholder="Add IceCream Price"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <textarea
+          id="description"
+          class="textarea is-medium"
+          placeholder="Description"
+        ></textarea>
+
+        <div class="columns">
+          <div class="column mt-4 has-text-centered">
+            <button id="submit" class="button is-medium is-info">Submit</button>
+          </div>
+        </div>
+
+        <div id="iceCreamDiv"></div>
+      </div>
+    </section>
+    <script src="./js/js.js"></script>
+  </body>
+</html>

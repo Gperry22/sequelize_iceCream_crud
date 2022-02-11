@@ -1,2 +1,3 @@
 # sequelize_iceCream_crud
-ClassBased with config.js file
+Full crud app using sequelize for class Full Crud walkthrough
+This is Class based and uses a config js file.
